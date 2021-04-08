@@ -1,0 +1,83 @@
+a{
+  outline:none;
+}
+body {
+  background-size: cover;
+}
+
+.title_table {
+  font-family: "Cursive";
+  font-size: 2.5em;
+  text-align: center;
+ margin-top: 50px;
+ margin-bottom: 25px;
+}
+
+.tablex {
+  width: 97%;
+  background: #f4f5f7;
+  border-collapse: collapse;
+  border: none;
+  margin: auto;
+  border-radius: 15px;
+  font-size: 0.7em;
+  text-align: center;
+}
+.tablex_primary {
+  border-top: 4px solid #e3a51e;
+  border-bottom: 1px solid gray;
+}
+.tablex_primary td {
+  padding: 15px 0px;
+}
+tr {
+  height: 30px;
+}
+tr td {
+  font-size: 0.7em;
+  font-size: 1.2em;
+  padding: 10px;
+}
+.tr:hover {
+  transition: all 0.2s;
+}
+
+.btnx {
+  border: 1px solid gray;
+  padding: 4px 8px;
+  background: rgba(128, 128, 128, 0);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.btnx:hover {
+  border: 1px solid #e3a51e;
+  background: #e3a51e;
+}
+.trhover:hover {
+  background: #c5c5c54b;
+  transition: all 0.3s;
+  cursor: default;
+}
+.labelSearch{
+    margin-left: 3.5%;
+    margin-bottom: 5px;
+}
+input:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.inputSearch{
+    width: 300px;
+    height: 20px;
+    font-size: 15px;
+    padding: 5px 20px;
+    margin-left: 1.5%;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.inputSearch:focus{
+    border: 2px solid #e3a51e;
+}

@@ -1,0 +1,192 @@
+.regla{
+    background: rgb(250, 16, 16);
+    height: 5px;
+    width: 780px;
+}
+label {
+    color: gray;
+    font-size: 1.3em;
+    margin-left: 12%;
+    font-family: helvetica;
+}
+.input{
+    width: 75%;
+    margin-left: 11%;
+    border: none;
+    border-bottom: 2px solid white;
+    border-left: 5px solid white;
+    font-size: 1.2em;
+    transition: all all .5s;
+    background: rgba(255, 255, 255, 0.226);
+    color: gray;
+    font-family: helvetica;
+    margin-bottom: 15px;
+    float: center;
+    transition: 2s;
+}
+.input-text {
+    height: 0;
+    padding: 15px;
+}
+.input-select {
+    height: 32px;
+    padding: 0px 0px 0px 15px ;
+}
+.textarea {
+    resize: none;
+    padding: 15px;
+    height: 100px;
+}
+.textarea-big{
+    height: 200px;
+    resize: none;
+    padding: 15px;
+}
+option {
+    color: black;
+}
+.input::placeholder {
+    transition: opacity 1s, letter-spacing 1s;
+    color: gray;
+
+}
+.input:focus {
+  background: none;
+  transition: 2s;
+  outline: none;
+}
+
+
+
+
+.input:focus::placeholder {
+    opacity: 0;
+    letter-spacing: 35px;
+}
+.border{
+    border-radius: 25px;
+}
+.file-txt {
+    text-align: center;
+    color: gray;
+    font-family: helvetica;
+    cursor: pointer;
+    font-size: 1.3em;
+    
+}
+
+.file-box {
+    cursor: pointer;
+    position: relative;
+    padding: 0.2px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.2);
+    /*    -webkit-border-radius: 25px;*/
+    /*    border-radius: 25px;*/
+    cursor: pointer;
+    border-bottom: 5px solid gray;
+    margin-left: 10%;
+    transition: .1s;
+}
+.file-box:hover {
+    cursor: pointer;
+    background: rgba(218, 194, 64, 0.5);
+    border: 3px dotted rgb(0, 0, 0);
+    color: aqua;
+    transition: .1s;
+    width: 79%;
+
+}
+.input-file {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    color: black;
+}
+.btn-form{
+    margin-left: 12%;
+}
+
+.file-img {
+    width: 80px;
+    position: absolute;
+    padding: 10px;
+    transition: all .5s;
+}
+.tablex{
+    width: 100%;
+    background: #F4F5F7;
+    border-collapse:collapse; 
+    border: none;
+    border-radius: 15px;
+    font-size: .7em;
+    text-align: center;
+}
+.tablex_primary{
+    border-top: 4px solid #E3A51E;
+/*    background: red;*/
+    border-bottom: 1px solid gray;
+}
+.tablex_primary td{
+    padding: 15px 0px;
+}
+tr{
+    height: 30px;
+    
+}
+tr td{
+    font-size: .7em;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.trhover{
+    transition: all .2s;
+}
+.btnx{
+    border: 1px solid gray;
+    padding: 4px 8px;
+    background: rgba(128, 128, 128, 0);
+    transition: all .3s;
+    cursor: pointer;
+    
+}
+.btnx:hover{
+    border: 1px solid #E3A51E;
+    background: #E3A51E;
+    
+}
+.trhover:hover{
+    background: #c5c5c5;
+    transition: all .3s;
+}
+@media screen and (max-width:780px){
+    .btn-form{
+        margin-left: 3%;
+    }
+}
+@media screen and (max-width: 940px) {
+    .input {
+        width: 100%;
+        margin-left:0%;
+    }
+    label {
+        margin-left: 3%;
+    }
+    .file-img {
+        display: none;
+    }
+    .file-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .file-box:hover {
+        width: 98%;
+
+    }
+}
